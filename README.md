@@ -4,6 +4,6 @@ Daily structured problem-solving practice to strengthen algorithmic thinking, da
 
 ## Progress
 Total Solved : 5
-Easy: 1
-Medium: 0
+Easy: 4
+Medium: 1
 Hard: 0
