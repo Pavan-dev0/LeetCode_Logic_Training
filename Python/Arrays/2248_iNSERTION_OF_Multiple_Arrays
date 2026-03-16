@@ -1,0 +1,10 @@
+from typing import List
+
+
+class Solution:
+    def intersection(self, nums: List[List[int]]) -> List[int]:
+        from collections import Counter
+        counts=Counter([x for l in nums for x in l])
+
+        result=sorted([k for k ,v in counts.items() if v==len(nums)])
+        return result
